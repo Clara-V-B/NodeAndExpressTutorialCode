@@ -1,0 +1,34 @@
+npm, node package manager unables us to do three things:
+- reuse our own code in other projects
+- use code written by other developers
+- share our own solutions with other developers
+
+npm calls the reusable code a package
+a package essentially is a folder that contains a javascript code
+another names that I will hear are modules and dependencies
+the three names are used interchangeably
+
+there is no quality control in npm registry, so anyone can publish anything
+a good indication of the security and usefulness of package is the amount of weekly download, if the number is high
+
+npmjs.com
+
+como instalé node, tengo instalado npm, que me da acceso a npm global command
+check the version of node with:
+node --version
+or
+node -v
+
+local dependency - use it only in this particular project
+npm i <packageName>
+
+global dependecy - use it in any project
+npm install -g <packageName>
+sudo npm install -g <packageName> (mac)
+
+con npx ya no es necesario usar tanto las dependencias globales
+
+package.json - manifest file (stores important info about project/package)
+manual approach (create package.json in the root, create properties, etc.)
+npm init (step by step, press enter to skip)
+npm init -y (everything default)
